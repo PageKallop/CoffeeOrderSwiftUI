@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C000B13125B748E400230604 /* CreateOrderResponce.swift in Sources */ = {isa = PBXBuildFile; fileRef = C000B13025B748E400230604 /* CreateOrderResponce.swift */; };
 		C061173825B6793900F71EB4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C061173725B6793900F71EB4 /* AppDelegate.swift */; };
 		C061173A25B6793900F71EB4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C061173925B6793900F71EB4 /* SceneDelegate.swift */; };
 		C061173C25B6793900F71EB4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C061173B25B6793900F71EB4 /* ContentView.swift */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C000B13025B748E400230604 /* CreateOrderResponce.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateOrderResponce.swift; sourceTree = "<group>"; };
 		C061173425B6793900F71EB4 /* CoffeeOrderSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoffeeOrderSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C061173725B6793900F71EB4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C061173925B6793900F71EB4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -93,6 +95,7 @@
 			children = (
 				C061174C25B6797B00F71EB4 /* CoffeeModel.swift */,
 				C061174F25B67BF700F71EB4 /* OrderModel.swift */,
+				C000B13025B748E400230604 /* CreateOrderResponce.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -179,6 +182,7 @@
 				C061173825B6793900F71EB4 /* AppDelegate.swift in Sources */,
 				C061175D25B686ED00F71EB4 /* OrderListView.swift in Sources */,
 				C061174D25B6797B00F71EB4 /* CoffeeModel.swift in Sources */,
+				C000B13125B748E400230604 /* CreateOrderResponce.swift in Sources */,
 				C061175025B67BF700F71EB4 /* OrderModel.swift in Sources */,
 				C061175525B67CD200F71EB4 /* WebService.com.swift in Sources */,
 				C061175825B681CF00F71EB4 /* OrderListViewModel.swift in Sources */,
