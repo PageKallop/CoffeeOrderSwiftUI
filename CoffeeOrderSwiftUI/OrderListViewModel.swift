@@ -14,13 +14,15 @@ class OrderListViewModel: ObservableObject {
     
     init() {
         fetchOrders()
+        print(orders)
     }
     
     func fetchOrders() {
-        
+        print("fectch orders")
         WebService().getAllOrders { orders in
             if let orders = orders {
                 self.orders = orders.map(OrderViewModel.init)
+                print(orders)
             }
         }
     }
