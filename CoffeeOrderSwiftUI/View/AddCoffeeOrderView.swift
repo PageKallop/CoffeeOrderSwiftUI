@@ -38,7 +38,7 @@ struct AddCoffeeOrderView: View {
                             Text("Medium")
                                 .tag("Medium")
                             
-                            Text("Lage")
+                            Text("Large")
                                 .tag("Large")
                         }.pickerStyle(SegmentedPickerStyle())
                     }

@@ -16,7 +16,7 @@ class OrderListViewModel: ObservableObject {
         fetchOrders()
     }
     
-    func fetchOrders () {
+    func fetchOrders() {
         
         WebService().getAllOrders { orders in
             if let orders = orders {

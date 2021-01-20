@@ -37,8 +37,9 @@ class AddCoffeOrderViewModel: ObservableObject {
     }
     
     private func priceForSize() -> Double {
-        let prices = ["small":2.0, "Medium":3.0, "Lage": 4.0]
-        return prices[self.size]!
+        let prices = ["Small":2.0, "Medium":3.0, "Large": 4.0]
+        
+        return prices[self.size] ?? 0.0
     }
     
     private func calculateTotalPrice() -> Double {
